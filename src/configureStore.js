@@ -8,7 +8,7 @@ import rootEpic from './Redux/epics';
 const epicMiddleware = createEpicMiddleware(rootEpic);
 
 const reducers = combineReducers({
-  rootReducer: addNum,
+  addNum: addNum,
   routing: routerReducer
 })
 

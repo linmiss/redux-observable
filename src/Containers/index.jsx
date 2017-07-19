@@ -7,6 +7,7 @@ class AddNum extends Component {
         this.props.dispatch({type: 'ADD_NUM', payload: {count: 3}})
     }
     render() {
+        console.log(this.props,555555)
         return (
             <div>
                 <h1>AddNum</h1>
